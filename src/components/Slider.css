@@ -11,7 +11,6 @@
 .slider__item {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
   width: 100%;
   background-color: #eee;
   transform-origin: center center;
@@ -58,4 +57,11 @@
   80% {left: -300%;}
   90% {left: -400%;}
   100% {left: -400%}
+}
+
+@media screen and (max-width: 1080px) {
+  .slider {
+    width: 100%;
+    max-width: 100%;
+  }
 }

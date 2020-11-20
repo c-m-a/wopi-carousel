@@ -5,3 +5,10 @@
   height: 40rem;
   background-color: #fff;
 }
+
+@media screen and (max-width: 1080px) {
+  .app {
+    width: 90%;
+    max-width: 73rem;
+  }
+}

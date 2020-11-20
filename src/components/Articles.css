@@ -34,3 +34,8 @@
   color: #8295c0;
 }
 
+@media screen and (max-width: 1080px) {
+  .articles {
+    display: none;
+  }
+}
