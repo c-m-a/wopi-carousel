@@ -1,0 +1,36 @@
+.articles {
+  padding: 0 3rem;
+  max-width: 33rem;
+}
+
+.articles___allNews {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem 1rem 1rem 1rem;
+}
+
+.articles___allNews > a {
+  font-size: 1.6rem;
+  color: #93aac7;
+  text-decoration: none;
+}
+
+.articles__item {
+  padding: 2rem 0;
+  border-bottom: .1rem solid #ccc;
+}
+
+.articles__title {
+  font-size: 1.3rem;
+}
+
+.articles__link,
+.articles__link:visited {
+  color: #404040;
+  text-decoration: none;
+}
+
+.articles__link:hover {
+  color: #8295c0;
+}
+
