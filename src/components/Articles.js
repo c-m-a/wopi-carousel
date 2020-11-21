@@ -13,6 +13,12 @@ function Articles({ articles }) {
         </article>
       ))}
       <div className="articles___allNews">
+        <div className="articles__dots">
+          {articles.map(a => (
+            <a className="articles__dot" href={`#n-${a.id}`}>
+            </a>
+          ))}
+        </div>
         <a href="test">ALL NEWS</a>
       </div>
     </div>

@@ -5,11 +5,13 @@
 
 .articles___allNews {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: .5rem 1rem 1rem 1rem;
 }
 
 .articles___allNews > a {
+  display: inline-block;
+  width: 9rem;
   font-size: 1.6rem;
   color: #93aac7;
   text-decoration: none;
@@ -34,8 +36,27 @@
   color: #8295c0;
 }
 
+.articles__dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+}
+
+.articles__dot {
+  display: block;
+  height: .7rem;
+  width: .7rem;
+  background-color: #8295c0;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1080px) {
   .articles {
+    display: none;
+  }
+
+  .articles__items {
     display: none;
   }
 }
